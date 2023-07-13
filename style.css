@@ -1,0 +1,165 @@
+*, html, body {
+    margin:0;
+    padding:0;    
+    font-family: 'Silkscreen', cursive;                                  
+}
+
+:root {
+   --bg-primary: skyblue;
+   --bg-secondary: #eaeaea;
+   --txt-primary: #f7f7f7;
+   --txt-secondary: #222;
+   --icons-bg-primary: tomato;
+   --icons-bg-secondary:
+}
+
+.container{
+    min-height:100vh;
+    width:100%;
+    height:auto;
+    background-color: var(--bg-primary);
+}
+
+
+.text-center {
+    text-align:center;  
+}
+
+
+.wrapper {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    height:auto;  
+}
+
+.card {
+    border:1px solid white;
+    background-color: var(--bg-secondary);
+    color: var(--txt-secondary);
+    padding:32px;
+    margin:8px;
+    width:40%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5)
+}
+
+
+
+.titles {
+    font-size: 2em;
+
+    
+}
+
+
+.icons {
+    margin-top:8px;
+    font-size: 24px;
+    color: var(--icons-bg-primary)
+}
+
+.twitter {
+    color: skyblue;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.spotify {
+    color: lightgreen;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.tiktok {
+    color: #2222;
+    text-shadow: 1px 1px #222;
+}
+
+.instagram {
+    color: pink; 
+    text-shadow: 1px 1px 1px purple;
+}
+.description {
+    margin-top: 8px;
+    font-size: .5em;
+}
+
+.btn p{
+    margin-top:16px;
+    padding:8px;
+    cursor:pointer;
+    border:none;
+    width:100%;
+}
+
+
+.btnig p:hover {
+    background-color: pink;
+    color: var(--txt-primary);
+    transform: rotate(2deg);
+    transition: .3s ease-in-out;
+    
+}
+.btntt p:hover {
+    background-color: #333;
+    color: var(--txt-primary);
+    transform: rotate(2deg);
+    transition: .3s ease-in-out;
+}
+.btntw p:hover {
+    background-color: skyblue;
+    color: var(--txt-primary);
+    transform: rotate(2deg);
+    transition: .3s ease-in-out;
+}
+.btnsf p:hover {
+    background-color: lightgreen;
+    color: var(--txt-primary);
+    transform: rotate(2deg);
+    transition: .3s ease-in-out;
+    
+}
+
+a {
+    text-decoration:none;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .profile>img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+   
+  }
+
+  .h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+  
+    
+  }
+
+  .title {
+    font-size: 1em;
+    color:#fff;
+    text-align:center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+  }
+
+@media screen and (max-width:476px) {
+    .card {
+        width:95%;
+    }    
+}
