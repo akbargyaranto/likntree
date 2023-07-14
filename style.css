@@ -89,6 +89,7 @@
     cursor:pointer;
     border:none;
     width:100%;
+    color:black;
 }
 
 
@@ -100,7 +101,7 @@
     
 }
 .btntt p:hover {
-    background-color: #333;
+    background-color: grey;
     color: var(--txt-primary);
     transform: rotate(2deg);
     transition: .3s ease-in-out;
@@ -162,4 +163,9 @@ a {
     .card {
         width:95%;
     }    
+    
+
+    .btn p {
+        
+    }
 }
