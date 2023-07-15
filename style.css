@@ -154,10 +154,11 @@ a {
 
   .title {
     font-size: 1em;
-    color:#fff;
+    color: white;
     text-align:center;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 2px black;
   }
+
 
 
 @media screen and (max-width:476px) {
