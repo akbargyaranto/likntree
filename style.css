@@ -106,8 +106,8 @@
     transform: rotate(2deg);
     transition: .3s ease-in-out;
 }
-.btntw p:hover {
-    background-color: skyblue;
+.btnth p:hover {
+    background-color: black;
     color: var(--txt-primary);
     transform: rotate(2deg);
     transition: .3s ease-in-out;
@@ -159,9 +159,10 @@ a {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
   }
 
+
 @media screen and (max-width:476px) {
     .card {
-        width:65%;
+        width:70%;
     }    
     
 
