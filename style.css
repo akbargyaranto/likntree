@@ -18,10 +18,11 @@
     width:100%;
     height:auto;
     background-color:  #fec762;
+    background-image: url('img/bg.jpg');
     /* background-image: linear-gradient(to bottom,  #fec762, #d07bfe, #f4c0ff ); */
-    /* background-position: center;
+    background-position: center;
     background-size: cover;             
-    background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 
@@ -119,9 +120,14 @@
     color: var(--txt-primary);
     transform: rotate(2deg);
     transition: .3s ease-in-out;
-    
 }
 
+.btncp p:hover {
+    background-color: lightblue;
+    color: var(--txt-primary);
+    transform: rotate(2deg);
+    transition: .3s ease-in-out;
+}
 a {
     text-decoration:none;
 }
@@ -156,9 +162,8 @@ a {
 
   .title {
     font-size: 1em;
-    color: black;
+    color: white;
     text-align:center;
-    
     padding-top:10px;
   }
 
