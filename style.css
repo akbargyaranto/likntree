@@ -17,8 +17,8 @@
     min-height:100vh;
     width:100%;
     height:auto;
-    background-color:  white;
-    background-image: url('img/bg1.jpg');
+    background-color: #fec762;
+    /* background-image: url('img/bg1.jpg'); */
     /* background-image: linear-gradient(to bottom,  #fec762, #d07bfe, #f4c0ff ); */
     background-position: center;
     background-size: cover;             
@@ -162,11 +162,17 @@ a {
 
   .title {
     font-size: 1em;
-    color: white;
+    color: black;
     text-align:center;
     padding-top:10px;
   }
 
+
+  audio {
+    padding-top: 10px;
+    width: 250px;
+    height:50px;
+  }
 
 
 @media screen and (max-width:476px) {
