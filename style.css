@@ -17,9 +17,9 @@
     min-height:100vh;
     width:100%;
     height:auto;
-    background-color: #363636;
+    /* background-color: #363636; */
     /* background-image: url('img/bg1.jpg'); */
-    /* background-image: linear-gradient(to bottom,  #fec762, #d07bfe, #f4c0ff ); */
+    background-image: linear-gradient(to bottom,  #fec762, #d07bfe, #f4c0ff );
     background-position: center;
     background-size: cover;             
     background-attachment: fixed;
